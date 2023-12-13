@@ -1,0 +1,19 @@
+.container{
+    background-color: rgb(181, 78, 191);
+    min-height: 300px;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows:  repeat(2, 1fr);
+    gap: 10px;
+}
+
+.item {
+    background-color: rgb(148, 72, 5);
+}
+.diferente{
+    /*grid-column-start: 1;
+    grid-column-end: 3;*/
+    grid-row-start: 1;
+    grid-row-end: 3;
+}

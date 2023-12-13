@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <title>Site</title>
+</head>
+<body>
+    <div class="container">
+        <div class="englobar_esquerda">
+            <form id="form">
+                <input type="text" id="tarefa" name="tarefa" placeholder="Adicionar tarefa...">
+                <button type="submit"><i class="fa-solid fa-plus"></i></button>
+            </form>
+            <div id="lista_tarefas"></div>
+        </div>
+        <div class="englobar_direita">
+            <div id="filtra_nome">
+                <form id="search">
+                    <input type="text" name="nome_busca" id="nome_busca" placeholder="Filtrar pelo nome...">
+                    <button type="submit" id="botao_busca"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </form>
+            </div>
+            <div class="botoes_filtrar">
+                <button id="tarefas_nao_concluidas">Tarefas não concluídas</button>
+                <button id="tarefas_concluidas">Tarefas concluídas</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+aula 1
+
+try/catch
+
+try {
+    codigo
+} catch (error $e) {
+    echo "ocorreu um erro de execução"
+} finally {
+    echo 'isso sempre sera executado!'
+}
+
+throw
+
+throw new Exception("Lançando uma exceção")
+
+
+
+MVC:
+
+Model - View - Control
+
+Separa o codigo nessas 3 camadas acima
+
+Model:
+é o grosso
+Camadas de negocio
+
+View:
+não é uma classe
+
+control: 
+meio campo
+estrtura logica
+
+classe abstrata nao tem imprementação dai as filhas delas vao ter que q ter

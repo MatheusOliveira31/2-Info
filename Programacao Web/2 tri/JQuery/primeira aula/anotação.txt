@@ -1,0 +1,2 @@
+target blank = abre uma nova aba tipo em um <a></a>
+*animações

@@ -1,0 +1,9 @@
+body{display: flex; gap: 10px; font-size: 55px;}
+button{
+    border-radius: 8px;
+    border-width: 0;
+}
+button:disabled{
+    color: red;
+    background-color: rgb(234, 141, 141);
+}

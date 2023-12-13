@@ -1,0 +1,72 @@
+paradigma 
+
+classe =
+ é um tipo de dado
+criar nossos tipos
+definir a propria estrutura
+conceito abstrato("molde")
+
+atributo =
+caracteristica/estado do objeto
+estrutura de dado da classe
+
+método = 
+define o comportamento do objeto
+quando invocado, o metodo executa a ação d eum objeto especifico
+exemplo carro("placa, modelo, cor")
+
+quando o metodo nao retorna nada é VOID
+
+this acessa as informaçoes da classe
+
+objeto = 
+instancia(construção) de uma classe
+quando eu contruo algo concreto
+ex: classe = carro - objeto seria um carro especifico
+
+construtor = 
+funçao que é executada quando criamos um objeto de classe
+setagem
+__construct
+
+
+Visibilidade = 
+public: + podem ser acessados de qualquer lugar 
+protected: # só podem se acessados na classe e em suas classes filhas 
+privade: -
+- Getters: acessar
+- Setters : alterar    que nao podem ser visiveis de fora da classe
+
+Relacionamento de classes:
+
+-Associação = Ocorre quando as classes se relacionam e são completamentes independentes
+
+-Agregação = Asociação onde as informaçoes (objeto-todo) precisam ser complementadas
+
+-Composição = Agregação com dependencia, se um deixa de existir o outro some
+relação de morte
+
+-Dependencia = Para uma classe ser executada a outra precisa estar "linkada"
+linha pontilhada
+dependencia baseada no metodo
+
+-Herança = Uma classe pode se estender por outra
+a classe filha aproveita os metodos e atributos do pai
+bem utilizado
+extends
+como se fosse um ctrl c ctrl v
+
+Classes e métodos abstratos
+não podem ser instanciadas(se eu tenho uma classe eu não possa dar um new nela)
+qualquer classe que contenha ao menos um método abstrata ela tabmém deve abstrata
+o método abstratado não é programado,ele so é assinado
+ao herdar um classe abstrata,todos os métodos abstratos debe, ser implemenetados na classe filha
+
+sobregarga e sobreescrita:
+
+sobregarga:
+igual porem com ao reescrever passamos com diferentes paramentros passdos
+
+sobreescrita:
+o mesmo metodo reinplantado na classe pai
+

@@ -1,0 +1,10 @@
+li {
+    padding: 5px;
+    border: solid tomato;
+    border-left: solid 10px tomato;
+    margin-bottom: 3px;
+    cursor: pointer;
+}
+li:hover{
+    border-left-color: brown;
+}

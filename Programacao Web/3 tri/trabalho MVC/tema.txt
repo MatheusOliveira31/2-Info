@@ -1,0 +1,8 @@
+usuario
+
+-> id
+-> nome
+-> login
+-> senha
+
+todo krud (gerenciar).

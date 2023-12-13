@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,
+initial-scale=1.0">
+<title>Document</title>
+</head>
+<body>
+
+<h1>Sistema de Cadastro de Clientes</h1>
+<form onsubmit="return verific()">
+<fieldset>
+<legend>Dados Cadastrais</legend>
+<label for="nome">Nome:</label>
+<input type="text" name="nome" id="nome"><br><br>
+<label for="idade">Idade:</label>
+<input type="number" name="idade" id="idade"><br><br>
+<label for="sexo">Sexo:</label>
+<input type="radio" name="sexo" value="0"><br><br>
+<label>Masculino</label>
+<label >Feminino</label> <br><br>
+<label >Cidades</label>
+
+<select name="cidades" id="cidades">
+<option value ="-1">Selecione uma Cidade</option>
+<option value ="BG">Bento Gonçalves</option>
+<option value ="POA">Porto Alegre</option>
+</select>
+</fieldset>
+<br>
+<fieldset>
+<legend>Interesses</legend>
+<input type="checkbox" name="interesse" id="info">
+<label for="info">Informática</label>
+<input type="checkbox" name="interesse" id="artes">
+<label for="artes">Artes</label>
+<input type="checkbox" name="interesse" id="mat">
+<label for="mat">Matemática</label>
+<label for="obv">Observações</label>
+<textarea name="obv" id="obv" cols="35"
+
+rows="4.5"></textarea>
+</fieldset>
+<br>
+<button type="submit">Enviar</button>
+</form>
+<script src="script.js"></script>
+</body>
+</html>

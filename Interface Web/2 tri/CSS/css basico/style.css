@@ -1,0 +1,24 @@
+*{
+    margin: 0px;
+}
+.container{
+    background-color: blue;
+    min-height: 200px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 20px;
+}
+.item {
+    background-color: yellow;
+    order: 1;
+    flex-grow: 1;
+}
+.item-diferente {
+    background-color: yellow;
+    order: 2;
+    flex-grow: 2;
+}

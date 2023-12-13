@@ -1,0 +1,20 @@
+wireframe:
+baixa representação visual
+comunicaçao rapida
+
+prototipo navegavel:
+ é alternativa á wireframe
+representaçao visual media
+
+mockup:
+estatico
+representaçao visual alternativa
+
+rabisco frame:
+a mão
+
+flex-wrap quebra do container
+
+space-evenly do que o space between, mais bonito e simetrico
+
+favicon, para pegar favicon generator

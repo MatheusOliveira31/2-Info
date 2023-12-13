@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px
+}
+.container>div {
+    margin: 20px;
+}
+#detalhe{
+    display: none;
+    padding: 30px;
+}
+.img{
+        height: 500px;
+        width: 380px;
+        display: flex;
+        justify-items: flex-end;
+}
+

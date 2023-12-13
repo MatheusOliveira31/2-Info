@@ -1,0 +1,19 @@
+button{
+    width: 25px;
+    height: 25px;
+}
+.jogadorAtivo{
+    background-color: green;
+    transition: background-color .1s;
+}
+#jogadores{
+    margin-bottom: 20px;
+}
+/*todo span filho da div */
+#jogador>span {
+    border: solid 1 px gray;
+    background-color: gray;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+}

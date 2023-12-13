@@ -1,0 +1,127 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Bitter', serif;
+    font-family: 'Nunito', sans-serif;
+    color: white;
+}
+.btn-top{
+     display: flex;
+     flex-direction: column;
+     margin: 2px;
+     padding: 0.6em 2em;
+     border: none;
+     outline: none;
+     color: rgb(255, 255, 255);
+     background: #111;
+     cursor: pointer;
+     z-index: 0;
+     border-radius: 10px;
+     user-select: none;
+     touch-action: manipulation;
+     font-size: 17px;
+
+}
+#body{
+    background-color:  #181A1B;
+}
+.all {
+    display: flex;
+    border-radius: 20px;
+    word-break: break-all;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card {
+    background-color: #151717;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 50px;
+    border: solid 1px;
+    height: 40%;
+    width: 25%;
+    border-radius: 20px;
+}
+.imagens {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    margin: 0px;
+}
+.card-imagem{
+    height: 235.3px;
+    width: 250;
+    border-radius: 20px;
+}
+.botoes{
+    padding-top: 1%;
+    position: relative;
+    display: flex;
+    gap: 10%;
+    padding-bottom: 1%;
+    justify-content: center;
+}
+.btn{
+     padding: 0.6em 2em;
+     border: none;
+     outline: none;
+     color: rgb(255, 255, 255);
+     background: #111;
+     cursor: pointer;
+     position: relative;
+     z-index: 0;
+     border-radius: 10px;
+     user-select: none;
+     touch-action: manipulation;
+     margin-top: 25px;
+}
+.btn-div{
+    display: flex;
+}
+.input{
+    margin-left: 89px;
+}
+#title {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    margin: 30px;
+    padding-top: 25px;
+}
+.titulo {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-size: 20px;
+}
+#adicionar {
+    margin-right: 10px;
+}
+.p_chave{
+    padding-top: 2%;
+    padding-bottom: 1%;
+}
+#div1 {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+}
+#button{
+    margin-left: 40px;
+    padding:11px;
+    border-radius: 10px;
+    width: 140px;
+}
+#link {
+    padding: 20px;
+    justify-content: center;
+    width: 680px;
+    height: 24px;
+    border-radius: 30px;
+    margin: none;
+}
+#span{
+    font-size: 25px;
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,117 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+body {
+    background-color: #181A1B;
+    height: 100vh;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 10px;
+}
+button {
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+#form {
+    padding: 7px 14px;
+    border-radius: 30px;
+    border: solid 1px black;
+    height: min-content;
+}
+#form>button {
+    background-color: transparent;
+    border: transparent;
+    border-left: solid 1px black;
+    padding: 3px 6px 3px 10px;
+    font-size: 25px;
+    color: rgb(138, 138, 138);
+}
+#lista_tarefas>div {
+    margin-left: 8px;
+    margin-top: 10px;
+    width: 350px;
+}
+#tarefa {
+    font-size: 23px;
+    color: white;
+    background-color: transparent;
+    border: none
+}
+input {
+    font-size: 30px;
+}
+.checkbox {
+    width: 24px;
+    height: 24px;
+}
+span {
+    font-size: 30px;
+    color: white;
+    word-break: break-all;
+    font-family: 'Ubuntu', sans-serif;
+}
+.botao_excluir {
+    font-size: 30px;
+    color: rgb(109, 109, 109);
+    background-color: transparent;
+    border: none;
+}
+.botao_excluir:hover {
+    color: red;
+}
+.botao_excluir:disabled {
+    color: rgb(109, 109, 109);
+}
+.botoes_filtrar>button {
+    background-color: #333333;
+    color: #8d8d8d;
+    border: none;
+    padding: 7px 12px;
+    border-radius: 30px;
+    margin-right: 20px;
+}
+.englobar_direita { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#filtra_nome {
+    margin: 0px 20px 20px 20px;
+    padding: 7px 12px;
+    border-radius: 30px;
+    border: solid 1px;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: transparent;
+    width:min-content;
+}
+#filtra_nome>form {
+    display: flex;
+    align-self: center;
+    flex-direction: row;
+    text-align: center;
+}
+#botao_busca {
+    margin: 0px;
+    font-size: 24px;
+    color: rgb(109, 109, 109);
+    background-color: transparent;
+    border: none;
+    border-left: solid 1px black;
+    padding: 2px 8px;
+    cursor: pointer;
+}
+
+#nome_busca {
+    font-size: 22px;
+    width: 235px;
+    height: min-content;
+    border: none;
+    align-self: center;
+    color: white;
+    background-color: transparent;
+}
+

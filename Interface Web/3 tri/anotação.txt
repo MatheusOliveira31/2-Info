@@ -1,0 +1,2 @@
+color picker para ver a cor certinha do google e 
+image picker para pegar uma cor especifica de uma imagem
